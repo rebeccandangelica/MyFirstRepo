@@ -1,0 +1,349 @@
+<html>
+<head>
+  <title>My First Webpage</title>
+  <link rel= "stylesheet" href= "grid.css">
+</head>
+<style>
+  body{
+    background-color: grey;
+    text-align: center;
+    margin-bottom: 2000px;
+  }
+  .row1{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  .healthcare-trends img{
+    height: 350px;
+    width: 450px;
+    opacity: 1;
+  }
+  .healthcare-trends:hover img{
+    opacity: 0.3;
+  }
+
+  .healthcare-words{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    width: inherit;
+    margin-left: 35%;
+    /* transition: opacity .2s, visibility .2s; */
+  }
+
+  .healthcare-trends:hover .healthcare-words {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .insurance img{
+    height: 350px;
+    width: 450px;
+    opacity: 1;
+  }
+  .insurance:hover img{
+    opacity: 0.3;
+  }
+  .insurance-words{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    visibility: hidden;
+    width: inherit;
+    opacity: 0;
+    margin-left: 35%;
+  }
+  .insurance:hover .insurance-words {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .wellness img{
+    height: 350px;
+    width: 450px;
+    opacity: 1;
+  }
+  .wellness:hover img{
+    opacity: 0.3;
+  }
+  .wellness-words{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    visibility: hidden;
+    width: inherit;
+    opacity: 0;
+    margin-left: 35%;
+  }
+  .wellness:hover .wellness-words{
+    visibility: visible;
+    opacity: 1;
+    /* z-index: 999; */
+  }
+
+
+  ul{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+
+  }
+  h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'PT Serif', serif;
+
+  }
+  h2{
+    color: white;
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+  }
+  h3{
+    color: white;
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+  }
+  p1{
+    font-size: 30px;
+    font-family: 'Patrick Sand Sc,';
+  }
+  p2{
+    font-size: 30px;
+    font-family: 'Patrick Sand Sc,';
+  }
+  p3{
+    font-size: 30px;
+    font-family: 'Patrick Sand Sc,';
+  }
+  .this-is-all-the-text{
+    width: 70%;
+  }
+
+/* .sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  z-index: 999;
+  display: none; */
+
+/* }
+.menu-image{
+  position:fixed;
+  left: 0px;
+  height: 50px;
+}
+
+.menu-image:hover{
+  opacity: 0.5;
+}
+.menu-image:hover + .sidebar{
+  display: block; */
+}
+
+/* .sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+} */
+
+/* .sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/*  */
+/* .dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left:0; */ */
+
+}
+
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+</style>
+<body>
+
+
+    <div class= "row1">
+      <div class= "col-12">
+        <!-- <div class="dropdown">
+          <button class="dropbtn"><img src="menu.png" class="menu-image" alt="menu"></button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div> -->
+        </div>
+        <div>
+          <ul> Know Your Healthcare </ul>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="dropdown">
+      <button class="dropbtn"></button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div> -->
+    <!-- <div class="sidebar">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div> -->
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+  <div>
+    <h1>Healthcare: What is it?</h1>
+    <br><br><br><br><br>
+  </div>
+  <div class= "row">
+      <div class = "col-4 healthcare-trends">
+        <img style = "transform: scale(0.9);" src = "healthcare-trends.jpg" >
+        <p class = "healthcare-words">Many people need help finding the right healthcare for them and we made this website for that purpose. Explore to find out more.</p>
+      </div>
+
+      <div class = "col-4 insurance">
+        <img style = "transform: scale(0.9);" img src = "insurance.jpg" class= "insurance">
+        <p class= "insurance-words">On our website we have a page with information about different health insurance companies including their costs. This will direct people to knowing what they think is best for their health.</p>
+      </div>
+
+      <div class = "col-4 wellness">
+        <img style = "transform: scale(0.9);" img src = "wellness.jpg" class= "wellness">
+        <p class= " wellness-words">We also have a page on how to stay healthy through helpful tips about one's diet, exercise and sleep. </p>
+
+      </div>
+  </div>
+
+  <div class="this-is-all-the-text">
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2> Healthcare Insurance Companies and Prices </h2>
+    <br><br><br><br>
+    <p1>Many companies for healthcare have different prices per plan, including Medicaid,Humana,Aetha, Paramount, WellCare and many more. </p1>
+    <br><br><br>
+<p2>
+        Medicaid
+        <br>
+        Working individuals or qualified disabled persons would be $16,334 a year
+        If you go to the ER for a non emergency the cost is $8 per visit
+        Family plans and other plans as well as more information are found on the Medicaid website linked below.
+        <br>
+      <a href = "https://www.medicaid.gov"> Click here for website </a>
+            <br><br><br>
+        Humana
+        <br>
+        Hmo plan is a program that you pick your own doctor from their database and they will help you with your primary care.
+        Through this program you have unlimited doctor visits, affordable monthly plan starting at $0 and emergency coverage all over the world.
+        The vision plan includes an annual vision exam and money towards glasses and contacts. More information on their website
+            <br><br><br>
+        Paramount
+        <br>
+        With a PPO plan you are allowed to pick doctors that are outside of the system.There is no deductibles added, no need for
+        referrals from the doctor and worldwide coverage.The monthly plan is $66, and out of pocket costs are 6,000.
+</p2>
+  </div>
+
+<div class="this-is-all-the-text">
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <h3> Staying Healthy</h3>
+      <br><br><br>
+<p3>
+    There are many ways to live a long and healthy life by following some simple health tips.
+    Staying healthy includes keeping a good balance of what you eat, how much you sleep and how much you exercise.
+    <br><br><br>
+    Helpful Eating Habits:
+    <br><br>
+    Always remember to eat vegetables, fruits and fibers. For example, good and tasteful vegetables and fruits are avocados, celery, carrots, apples and bananas. You should eat at least 5 servings of fruits and vegetables a day.
+    You should also keep a good intake of healthy, low-fat protein. For example eggs, poultry w/o skin, lean meats, seafood, nuts and soy products are great sources of protein for a healthy life. In general, white meat is healthier than red meat so if you want, try and eat more white meat than red.
+    Try to limit your intake on fattening, preserved junk foods and sugared drinks such as soda.
+    <br><br>
+    Also reduce your intake on high sodium foods. Too much of it can be a risk towards diabetes and excessive weight gain.
+    This does not mean you have to shut out junk foods or red meat, you can and should still eat them every once in a while but don&#39;t go overboard and eat too much.
+    Starving yourself is also never a solution, eating too much in one day does not mean you have to stop eating for another. It just means to eat healthier foods the next day.
+    <br><br><br>
+    Sleeping:
+    <br><br>
+    Getting sleep is severely important for keeping ones mental health in check.
+    <br><br>
+    A good sleep schedule will allow for a quality of life as well as keeping up your physical health.
+    Good sleep schedules include sleeping and waking up at similar times every night. A good way to do this is setting two alarms for the same time every night and morning to let you know that you should start waking up or sleep at that time.
+    <br><br>
+    It is also important to sleep in a dark, quiet and cool environment which will improve your sleep.
+    Also make sure to keeps naps short because long naps will interfere with your sleep schedule.
+    <br><br><br>
+    Exercise:
+    <br><br>
+    Exercise is also extremely important to a healthy lifestyle. While you don&#39;t have to exercise every single day, it&#39;s good to have a weekly schedule where you take the time to strengthen and work your muscles, while you still can.
+    <br><br>
+    According to Harvard Medical, exercise can prevent one from experiencing heart attacks, high blood pressure, strokes, obesity, dementia and more.
+    There are several exercises that you can do at home or at the gym that are specific to working specific body parts. For example push ups are good for your
+    upper body strength and core. Crunches help work your stomach muscles. And lunges help improve your leg strength as well as flexibility. There are a hundred
+    more exercises you can do to build strength in your muscles and relax them as well. Below are visuals that you can follow and add to your daily routine and a
+    link to a website with easy, helpsful exercises to follow.
+    <br><br>
+    <a href = "https://greatist.com/fitness/50-bodyweight-exercises-you-can-do-anywhere">Click Here for Website</a>
+
+
+</p3>
+
+</div>
+
+</body>
+
+</html>
